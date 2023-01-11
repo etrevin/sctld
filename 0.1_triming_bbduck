@@ -1,0 +1,50 @@
+#!/bin/sh
+
+bbduk.sh in=cl_SRR14853907.fasta out=cl_SRR14853907.fq ref=/home/erick/extb_apps/bbmap/resources/adapters.fa ktrim=r k=20 mink=7 hdist=3 -Xmx5g trimpolya=10
+bbduk.sh in=cl_SRR14853921.fasta out=cl_SRR14853921.fq ref=/home/erick/extb_apps/bbmap/resources/adapters.fa ktrim=r k=20 mink=7 hdist=3 -Xmx5g trimpolya=10
+bbduk.sh in=cl_SRR14853935.fasta out=cl_SRR14853935.fq ref=/home/erick/extb_apps/bbmap/resources/adapters.fa ktrim=r k=20 mink=7 hdist=3 -Xmx5g trimpolya=10
+bbduk.sh in=cl_SRR14853908.fasta out=cl_SRR14853908.fq ref=/home/erick/extb_apps/bbmap/resources/adapters.fa ktrim=r k=20 mink=7 hdist=3 -Xmx5g trimpolya=10
+bbduk.sh in=cl_SRR14853922.fasta out=cl_SRR14853922.fq ref=/home/erick/extb_apps/bbmap/resources/adapters.fa ktrim=r k=20 mink=7 hdist=3 -Xmx5g trimpolya=10
+bbduk.sh in=cl_SRR14853936.fasta out=cl_SRR14853936.fq ref=/home/erick/extb_apps/bbmap/resources/adapters.fa ktrim=r k=20 mink=7 hdist=3 -Xmx5g trimpolya=10
+
+bbduk.sh in=cl_SRR14853909.fasta out=cl_SRR14853909.fq ref=/home/erick/extb_apps/bbmap/resources/adapters.fa ktrim=r k=20 mink=7 hdist=3 -Xmx5g trimpolya=10
+bbduk.sh in=cl_SRR14853923.fasta out=cl_SRR14853923.fq ref=/home/erick/extb_apps/bbmap/resources/adapters.fa ktrim=r k=20 mink=7 hdist=3 -Xmx5g trimpolya=10
+bbduk.sh in=cl_SRR14853937.fasta out=cl_SRR14853937.fq ref=/home/erick/extb_apps/bbmap/resources/adapters.fa ktrim=r k=20 mink=7 hdist=3 -Xmx5g trimpolya=10
+bbduk.sh in=cl_SRR14853910.fasta out=cl_SRR14853910.fq ref=/home/erick/extb_apps/bbmap/resources/adapters.fa ktrim=r k=20 mink=7 hdist=3 -Xmx5g trimpolya=10
+bbduk.sh in=cl_SRR14853924.fasta out=cl_SRR14853924.fq ref=/home/erick/extb_apps/bbmap/resources/adapters.fa ktrim=r k=20 mink=7 hdist=3 -Xmx5g trimpolya=10
+bbduk.sh in=cl_SRR14853938.fasta out=cl_SRR14853938.fq ref=/home/erick/extb_apps/bbmap/resources/adapters.fa ktrim=r k=20 mink=7 hdist=3 -Xmx5g trimpolya=10
+
+bbduk.sh in=cl_SRR14853911.fasta out=cl_SRR14853911.fq ref=/home/erick/extb_apps/bbmap/resources/adapters.fa ktrim=r k=20 mink=7 hdist=3 -Xmx5g trimpolya=10
+bbduk.sh in=cl_SRR14853925.fasta out=cl_SRR14853925.fq ref=/home/erick/extb_apps/bbmap/resources/adapters.fa ktrim=r k=20 mink=7 hdist=3 -Xmx5g trimpolya=10
+bbduk.sh in=cl_SRR14853939.fasta out=cl_SRR14853939.fq ref=/home/erick/extb_apps/bbmap/resources/adapters.fa ktrim=r k=20 mink=7 hdist=3 -Xmx5g trimpolya=10
+bbduk.sh in=cl_SRR14853912.fasta out=cl_SRR14853912.fq ref=/home/erick/extb_apps/bbmap/resources/adapters.fa ktrim=r k=20 mink=7 hdist=3 -Xmx5g trimpolya=10
+bbduk.sh in=cl_SRR14853926.fasta out=cl_SRR14853926.fq ref=/home/erick/extb_apps/bbmap/resources/adapters.fa ktrim=r k=20 mink=7 hdist=3 -Xmx5g trimpolya=10
+bbduk.sh in=cl_SRR14853940.fasta out=cl_SRR14853940.fq ref=/home/erick/extb_apps/bbmap/resources/adapters.fa ktrim=r k=20 mink=7 hdist=3 -Xmx5g trimpolya=10
+
+bbduk.sh in=cl_SRR14853913.fasta out=cl_SRR14853913.fq ref=/home/erick/extb_apps/bbmap/resources/adapters.fa ktrim=r k=20 mink=7 hdist=3 -Xmx5g trimpolya=10
+bbduk.sh in=cl_SRR14853927.fasta out=cl_SRR14853927.fq ref=/home/erick/extb_apps/bbmap/resources/adapters.fa ktrim=r k=20 mink=7 hdist=3 -Xmx5g trimpolya=10
+bbduk.sh in=cl_SRR14853941.fasta out=cl_SRR14853941.fq ref=/home/erick/extb_apps/bbmap/resources/adapters.fa ktrim=r k=20 mink=7 hdist=3 -Xmx5g trimpolya=10
+bbduk.sh in=cl_SRR14853914.fasta out=cl_SRR14853914.fq ref=/home/erick/extb_apps/bbmap/resources/adapters.fa ktrim=r k=20 mink=7 hdist=3 -Xmx5g trimpolya=10
+bbduk.sh in=cl_SRR14853928.fasta out=cl_SRR14853928.fq ref=/home/erick/extb_apps/bbmap/resources/adapters.fa ktrim=r k=20 mink=7 hdist=3 -Xmx5g trimpolya=10
+bbduk.sh in=cl_SRR14853942.fasta out=cl_SRR14853942.fq ref=/home/erick/extb_apps/bbmap/resources/adapters.fa ktrim=r k=20 mink=7 hdist=3 -Xmx5g trimpolya=10
+
+bbduk.sh in=cl_SRR14853915.fasta out=cl_SRR14853915.fq ref=/home/erick/extb_apps/bbmap/resources/adapters.fa ktrim=r k=20 mink=7 hdist=3 -Xmx5g trimpolya=10
+bbduk.sh in=cl_SRR14853929.fasta out=cl_SRR14853929.fq ref=/home/erick/extb_apps/bbmap/resources/adapters.fa ktrim=r k=20 mink=7 hdist=3 -Xmx5g trimpolya=10
+bbduk.sh in=cl_SRR14853943.fasta out=cl_SRR14853943.fq ref=/home/erick/extb_apps/bbmap/resources/adapters.fa ktrim=r k=20 mink=7 hdist=3 -Xmx5g trimpolya=10
+bbduk.sh in=cl_SRR14853916.fasta out=cl_SRR14853916.fq ref=/home/erick/extb_apps/bbmap/resources/adapters.fa ktrim=r k=20 mink=7 hdist=3 -Xmx5g trimpolya=10
+bbduk.sh in=cl_SRR14853930.fasta out=cl_SRR14853930.fq ref=/home/erick/extb_apps/bbmap/resources/adapters.fa ktrim=r k=20 mink=7 hdist=3 -Xmx5g trimpolya=10
+bbduk.sh in=cl_SRR14853944.fasta out=cl_SRR14853944.fq ref=/home/erick/extb_apps/bbmap/resources/adapters.fa ktrim=r k=20 mink=7 hdist=3 -Xmx5g trimpolya=10
+
+bbduk.sh in=cl_SRR14853917.fasta out=cl_SRR14853917.fq ref=/home/erick/extb_apps/bbmap/resources/adapters.fa ktrim=r k=20 mink=7 hdist=3 -Xmx5g trimpolya=10
+bbduk.sh in=cl_SRR14853931.fasta out=cl_SRR14853931.fq ref=/home/erick/extb_apps/bbmap/resources/adapters.fa ktrim=r k=20 mink=7 hdist=3 -Xmx5g trimpolya=10
+bbduk.sh in=cl_SRR14853945.fasta out=cl_SRR14853945.fq ref=/home/erick/extb_apps/bbmap/resources/adapters.fa ktrim=r k=20 mink=7 hdist=3 -Xmx5g trimpolya=10
+bbduk.sh in=cl_SRR14853918.fasta out=cl_SRR14853918.fq ref=/home/erick/extb_apps/bbmap/resources/adapters.fa ktrim=r k=20 mink=7 hdist=3 -Xmx5g trimpolya=10
+bbduk.sh in=cl_SRR14853932.fasta out=cl_SRR14853932.fq ref=/home/erick/extb_apps/bbmap/resources/adapters.fa ktrim=r k=20 mink=7 hdist=3 -Xmx5g trimpolya=10
+bbduk.sh in=cl_SRR14853946.fasta out=cl_SRR14853946.fq ref=/home/erick/extb_apps/bbmap/resources/adapters.fa ktrim=r k=20 mink=7 hdist=3 -Xmx5g trimpolya=10
+
+bbduk.sh in=cl_SRR14853919.fasta out=cl_SRR14853919.fq ref=/home/erick/extb_apps/bbmap/resources/adapters.fa ktrim=r k=20 mink=7 hdist=3 -Xmx5g trimpolya=10
+bbduk.sh in=cl_SRR14853933.fasta out=cl_SRR14853933.fq ref=/home/erick/extb_apps/bbmap/resources/adapters.fa ktrim=r k=20 mink=7 hdist=3 -Xmx5g trimpolya=10
+bbduk.sh in=cl_SRR14853947.fasta out=cl_SRR14853947.fq ref=/home/erick/extb_apps/bbmap/resources/adapters.fa ktrim=r k=20 mink=7 hdist=3 -Xmx5g trimpolya=10
+bbduk.sh in=cl_SRR14853920.fasta out=cl_SRR14853920.fq ref=/home/erick/extb_apps/bbmap/resources/adapters.fa ktrim=r k=20 mink=7 hdist=3 -Xmx5g trimpolya=10
+bbduk.sh in=cl_SRR14853934.fasta out=cl_SRR14853934.fq ref=/home/erick/extb_apps/bbmap/resources/adapters.fa ktrim=r k=20 mink=7 hdist=3 -Xmx5g trimpolya=10
+bbduk.sh in=cl_SRR14853948.fasta out=cl_SRR14853948.fq ref=/home/erick/extb_apps/bbmap/resources/adapters.fa ktrim=r k=20 mink=7 hdist=3 -Xmx5g trimpolya=10

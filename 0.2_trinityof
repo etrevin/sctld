@@ -1,0 +1,6 @@
+#!/bin/sh
+
+cd /mnt/Datos2/etrevino/Cl_fq/
+
+/home/Apps/trinity/trinityrnaseq-Trinity-v2.6.6/Trinity --seqType fq --max_memory 48G --CPU 8 --no_normalize_reads --workdir /mnt/Datos2/etrevino/Cl_fq/trinity_out/trinity_of_meta0.1/  --output /mnt/Datos2/etrevino/Cl_fq/trinity_out/trinity_of_meta0.1 \
+--single cl_SRR14853939.fqcl_SRR14853938.fq, cl_SRR14853937.fq, cl_SRR14853935.fq, cl_SRR14853934.fq, cl_SRR14853933.fq, cl_SRR14853932.fq,cl_SRR14853931.fq,cl_SRR14853930.fq,cl_SRR14853929.fq, cl_SRR14853928.fq, cl_SRR14853927.fq, cl_SRR14853926.fq, cl_SRR14853924.fq,cl_SRR14853923.fq,cl_SRR14853922.fq,cl_SRR14853921.fq,cl_SRR14853920.fq, cl_SRR14853919.fq, cl_SRR14853918.fq, cl_SRR14853917.fq, cl_SRR14853916.fq,cl_SRR14853915.fq,cl_SRR14853913.fq,cl_SRR14853912.fq,cl_SRR14853911.fq

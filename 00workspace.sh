@@ -1,0 +1,11 @@
+blastx -query of_h_anderson16.fasta -db /home/erick/extb_apps/Trinotate-Trinotate-v3.2.2/db/uniprot_sprot.pep -num_threads 16 -max_target_seqs 1 -outfmt 6 -evalue 1e-3 > blastx_ofh.outfmt6
+blastx -query of_s_bayer12.fasta -db /home/erick/extb_apps/Trinotate-Trinotate-v3.2.2/db/uniprot_sprot.pep -num_threads 16 -max_target_seqs 1 -outfmt 6 -evalue 1e-3 > blastx_ofs.outfmt6
+blastx -query mc_h_kitchen15.fasta -db /home/erick/extb_apps/Trinotate-Trinotate-v3.2.2/db/uniprot_sprot.pep -num_threads 16 -max_target_seqs 1 -outfmt 6 -evalue 1e-3 > blastx_mch.outfmt6
+blastx -query mc_s_ladner16.fasta -db /home/erick/extb_apps/Trinotate-Trinotate-v3.2.2/db/uniprot_sprot.pep -num_threads 16 -max_target_seqs 1 -outfmt 6 -evalue 1e-3 > blastx_mcs.outfmt6
+
+/mnt/Datos2/etrevino/apps/ncbi-blast-2.13.0+/bin/blastp -query /mnt/Datos2/etrevino/workspace/trnasdecoder/transde_of_h/of_h_anderson16.fasta.transdecoder.pep -db /mnt/Datos2/etrevino/apps/Trinotate-Trinotate-v3.2.2/db/uniprot_sprot.pep -num_threads 8 -max_target_seqs 1 -outfmt 6 -evalue 1e-3 > blastp_ofh.outfmt6
+/mnt/Datos2/etrevino/apps/ncbi-blast-2.13.0+/bin/blastp -query /mnt/Datos2/etrevino/workspace/trnasdecoder/transde_of_s/of_s_bayer12.fasta.transdecoder.pep -db /mnt/Datos2/etrevino/apps/Trinotate-Trinotate-v3.2.2/db/uniprot_sprot.pep -num_threads 8 -max_target_seqs 1 -outfmt 6 -evalue 1e-3 > blastp_ofs.outfmt6
+/mnt/Datos2/etrevino/apps/ncbi-blast-2.13.0+/bin/blastp -query /mnt/Datos2/etrevino/workspace/trnasdecoder/transde_mc_h/mc_h_kitchen15.fasta.transdecoder.pep -db /mnt/Datos2/etrevino/apps/Trinotate-Trinotate-v3.2.2/db/uniprot_sprot.pep -num_threads 8 -max_target_seqs 1 -outfmt 6 -evalue 1e-3 > blastp_mch.outfmt6
+/mnt/Datos2/etrevino/apps/ncbi-blast-2.13.0+/bin/blastp -query /mnt/Datos2/etrevino/workspace/trnasdecoder/transde_mc_s/mc_s_ladner16.fasta.transdecoder.pep -db /mnt/Datos2/etrevino/apps/Trinotate-Trinotate-v3.2.2/db/uniprot_sprot.pep -num_threads 8 -max_target_seqs 1 -outfmt 6 -evalue 1e-3 > blastp_mcs.outfmt6
+
+hmmscan --cpu 8 --domtblout ofsTrinotatePFAM.out /home/erick/extb_apps/Trinotate-Trinotate-v3.2.2/db/Pfam-A.hmm /home/erick/Documents/workspace/assemblys/trnasdecoder/transde_of_h/of_h_anderson16.fasta.transdecoder.pep > pfamofs.log
